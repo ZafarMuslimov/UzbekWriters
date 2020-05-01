@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_book"
+            android:title="Библиотека" />
+        <item
+            android:id="@+id/nav2_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav3_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message" />
+    </group>
+
+    <item android:title="Медиа">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_message"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav2_share"
+                android:icon="@drawable/ic_message"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
